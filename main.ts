@@ -1,0 +1,13 @@
+basic.showNumber(0)
+basic.showIcon(IconNames.Heart)
+basic.showNumber(100)
+basic.forever(function () {
+    basic.showString("Hello MaMa!")
+    basic.pause(5000)
+    basic.showIcon(IconNames.Heart)
+    basic.pause(5000)
+    basic.showString("Hello KAKA!")
+    basic.pause(5000)
+    basic.showArrow(ArrowNames.South)
+    basic.pause(5000)
+})
